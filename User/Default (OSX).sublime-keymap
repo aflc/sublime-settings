@@ -1,0 +1,22 @@
+[
+	// edit
+	{ "keys": ["ctrl+j"], "command": "insert", "args": {"characters": "\n"} },
+	{ "keys": ["ctrl+l"], "command": "recenter_top_bottom" },
+	// expand関連
+	{ "keys": ["super+shift+u"], "command": "expand_selection", "args": {"to": "scope"} },
+	{ "keys": ["super+shift+m"], "command": "expand_selection", "args": {"to": "brackets"} },
+	{ "keys": ["super+shift+j"], "command": "expand_selection", "args": {"to": "indentation"} },
+	{ "keys": ["super+shift+a"], "command": "expand_selection", "args": {"to": "tag"} },
+	// headerを開くときとかに使う
+	{ "keys": ["ctrl+x", "j"], "command": "switch_file", "args": {"extensions": ["cpp", "cxx", "cc", "c", "hpp", "hxx", "h", "ipp", "inl", "m", "mm"]} },
+	{ "keys": ["ctrl+super+o"], "command": "toggle_side_bar" },
+	// goto
+	{ "keys": ["ctrl+super+;"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+	{ "keys": ["ctrl+shift+;"], "command": "prompt_select_project" },
+	{ "keys": ["ctrl+x", "ctrl+f"], "command": "fuzzy_start_from_file" },
+	{ "keys": ["ctrl+x", "ctrl+b"], "command": "fuzzy_bookmarks_load" },
+	// codeintel
+	{ "keys": ["super+q"], "command": "goto_python_definition" },
+	{ "keys": ["ctrl+super+q"], "command": "back_to_python_definition"}
+
+]

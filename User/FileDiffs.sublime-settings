@@ -1,0 +1,7 @@
+{
+	//
+	// "cmd": ["p4merge", "$file1", "$file2"],
+	// opendiff (FileMerge)
+	"cmd": ["/Users/hiro/local/bin/p4merge", "$file1", "$file2"],
+	"open_in_sublime": false
+}

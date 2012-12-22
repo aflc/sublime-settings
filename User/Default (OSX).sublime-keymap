@@ -18,5 +18,4 @@
 	// codeintel
 	{ "keys": ["super+q"], "command": "goto_python_definition" },
 	{ "keys": ["ctrl+super+q"], "command": "back_to_python_definition"}
-
 ]

@@ -1,9 +1,10 @@
 {
 	"auto_complete_selector": "source, text",
 	"caret_style": "wide",
-	"color_scheme": "Packages/DobDark Color Scheme/Dobdark.tmTheme",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Bright.tmTheme",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
+	"translate_tabs_to_spaces": true,
 	"font_face": "Ricty Regular",
 	"font_size": 14,
 	"git_gutter_live_mode": false,
@@ -21,7 +22,10 @@
 	[
 		120
 	],
-	"theme": "Night.sublime-theme",
+	"theme": "Soda Dark.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true"
+	"word_wrap": "true",
+	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "*.egg-info", ".cache", "__pycache__"],
+	"file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sqlite", ".coverage"],
+    "binary_file_patterns": ["*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip"]
 }

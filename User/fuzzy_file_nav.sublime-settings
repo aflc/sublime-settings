@@ -1,0 +1,8 @@
+{
+    "bookmarks": [
+        {"name": "Root", "path": {"#multiconf#": [{"os:linux": "/"}, {"os:osx": "/"}]}},
+        {"name": "Dropbox", "path": "~/Dropbox"},
+        {"name": "codes", "path": "~/Dropbox/codes"},
+        {"name": "packages", "path": "~/Library/Application Support/Sublime Text 2/Packages"}
+    ]
+}

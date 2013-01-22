@@ -1,12 +1,64 @@
 {
-	"auto_complete_selector": "source, text",
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
+	"build_env":
+	{
+		"PATH": "~/.nvm/v0.6.16/bin:/opt/local/bin:/opt/local/Library/Frameworks/Python.framework/Versions/Current/bin:/usr/local/bin:/usr/X11/bin:~/local/bin:/usr/local/sbin:/usr/local/share:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:$PATH"
+	},
 	"caret_style": "wide",
-	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Bright.tmTheme",
+	"color_scheme": "Packages/Color Schemes by carlcalderon/Calydon/Calydon.tmTheme",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
-	"translate_tabs_to_spaces": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sqlite",
+		".coverage"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"*.egg-info",
+		".cache",
+		"__pycache__"
+	],
 	"font_face": "Ricty Regular",
-	"font_size": 14,
+	"font_size": 14.0,
 	"git_gutter_live_mode": false,
 	"highlight_modified_tabs": true,
 	"hot_exit": true,
@@ -23,9 +75,7 @@
 		120
 	],
 	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true",
-	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "*.egg-info", ".cache", "__pycache__"],
-	"file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sqlite", ".coverage"],
-    "binary_file_patterns": ["*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip"]
+	"word_wrap": "true"
 }
